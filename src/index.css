@@ -2506,6 +2506,100 @@ body::after {
 }
 
 /* =========================
+   FIX FINAL IMÁGENES HOME EN MÓVIL
+   ========================= */
+
+@media (max-width: 768px) {
+  /* Ajuste general del hero en celular */
+  .hero-slider {
+    min-height: 88vh !important;
+  }
+
+  .hero-slider .hero-background,
+  .hero-slider .hero-background img {
+    height: 100% !important;
+  }
+
+  .hero-slider .hero-background .hero-slide-img {
+    object-fit: cover !important;
+    transform: scale(1) !important;
+  }
+
+  .hero-slider .hero-background .hero-slide-img.active {
+    transform: scale(1) !important;
+  }
+
+  /* Imagen 1: foto interior del gym */
+  .hero-slider .hero-background .hero-img-1,
+  .hero-slider .hero-background .hero-img-1.active {
+    object-position: 25% center !important;
+  }
+
+  /* Imagen 2: ajustar si se ve muy corrida */
+  .hero-slider .hero-background .hero-img-2,
+  .hero-slider .hero-background .hero-img-2.active {
+    object-position: 25% center !important;
+  }
+
+  /* Imagen 3: fachada de Active Fit */
+  .hero-slider .hero-background .hero-img-3,
+  .hero-slider .hero-background .hero-img-3.active {
+    object-position: 65% center !important;
+    transform: scale(1) !important;
+  }
+
+  /* Oscurece un poco para que el texto se lea mejor */
+  .hero-slider::after {
+    background:
+      linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.72),
+        rgba(0, 0, 0, 0.36),
+        rgba(0, 0, 0, 0.72)
+      ),
+      linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.12),
+        rgba(0, 0, 0, 0.64)
+      ) !important;
+  }
+
+  /* Acomoda el contenido para que no quede tan pegado */
+  .hero-content {
+    padding-top: 92px !important;
+    padding-bottom: 90px !important;
+    justify-content: center !important;
+  }
+
+  .hero h1 {
+    font-size: clamp(2.4rem, 11vw, 3.6rem) !important;
+    max-width: 96% !important;
+  }
+
+  .hero p {
+    max-width: 96% !important;
+  }
+}
+
+/* =========================
+   FIX FONDO GENERAL EN MÓVIL
+   ========================= */
+
+@media (max-width: 768px) {
+  body::before {
+    background-position: 48% center !important;
+    transform: scale(1.05) !important;
+    filter: blur(1.2px) !important;
+  }
+}
+
+@media (max-width: 480px) {
+  body::before {
+    background-position: 65% center !important;
+  }
+}
+
+/* =========================
     FINAL MENÚ MÓVIL
    ========================= */
 
