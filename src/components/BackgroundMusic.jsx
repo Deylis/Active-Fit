@@ -10,7 +10,7 @@ function BackgroundMusic() {
 
     if (!audio) return;
 
-    audio.volume = 0.05;
+    audio.volume = 0.10;
     audio.loop = true;
 
     const handleEnded = () => {
