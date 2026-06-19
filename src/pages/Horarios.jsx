@@ -95,7 +95,7 @@ function Horarios() {
 
               <tr>
                 <td>Viernes</td>
-                <td>Pesas / Cardio</td>
+                <td>Pesas</td>
                 <td>Entrenamiento libre</td>
                 <td>Full body</td>
               </tr>
@@ -124,7 +124,7 @@ function Horarios() {
             <h3>Recomendación</h3>
             <p>
               Para mejores resultados, se recomienda entrenar de 3 a 5 veces por
-              semana, combinando fuerza, cardio, descanso y buena alimentación.
+              semana, combinando fuerza, descanso y buena alimentación.
             </p>
           </div>
 
