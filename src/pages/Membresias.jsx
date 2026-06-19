@@ -9,8 +9,8 @@ function Membresias() {
           <h1>PLANES HECHOS PARA TU RITMO</h1>
           <p>
             Elige el plan que mejor se adapte a tu rutina, tu disciplina y tus
-            objetivos. También contamos con descuentos especiales para miembros
-            seleccionados.
+            objetivos. Contamos con opciones flexibles en córdobas para que
+            puedas entrenar según tu tiempo y necesidad.
           </p>
         </div>
       </section>
@@ -18,38 +18,38 @@ function Membresias() {
       <section className="container discount-section reveal">
         <div className="discount-banner">
           <div className="discount-header">
-            <span>DESCUENTOS ESPECIALES</span>
-            <h2>Entrena más, paga menos</h2>
+            <span>PRECIO ESPECIAL</span>
+            <h2>Estudiantes y veteranos</h2>
             <p>
-              En Active Fit apoyamos a estudiantes, veteranos y adultos mayores
-              con descuentos especiales para que puedan mantenerse activos,
+              En Active Fit apoyamos a estudiantes y veteranos con una opción
+              mensual especial, pensada para que puedan mantenerse activos,
               fuertes y constantes.
             </p>
           </div>
 
           <div className="discount-grid">
             <article className="discount-card">
-              <div className="discount-number">20%</div>
-              <h3>Descuento para estudiantes</h3>
+              <div className="discount-number">C$930</div>
+              <h3>Estudiantes</h3>
               <p>
-                Presentando carnet estudiantil vigente, aplica descuento en
-                planes seleccionados.
+                Plan mensual especial para estudiantes que desean entrenar de
+                forma constante con un precio accesible.
               </p>
             </article>
 
             <article className="discount-card">
-              <div className="discount-number">40%</div>
-              <h3>Veteranos y adultos mayores</h3>
+              <div className="discount-number">C$930</div>
+              <h3>Veteranos</h3>
               <p>
-                Beneficio especial para veteranos y adultos mayores que desean
-                entrenar con acompañamiento y seguridad.
+                Beneficio mensual especial para veteranos que desean mantenerse
+                activos, fuertes y saludables.
               </p>
             </article>
           </div>
 
           <p className="discount-note">
-            Consulta disponibilidad y condiciones directamente en recepción o en
-            nuestro formulario de contacto.
+            Consulta disponibilidad y condiciones directamente en recepción o
+            por medio de nuestro formulario de contacto.
           </p>
         </div>
       </section>
@@ -60,12 +60,12 @@ function Membresias() {
             <span className="tag">Más popular</span>
             <h3>Mensualidad</h3>
             <p className="price">
-              30 <small>dólares</small>
+              C$1100 <small>córdobas</small>
             </p>
             <ul>
               <li>Acceso completo al gimnasio.</li>
               <li>Ideal para progreso constante.</li>
-              <li>Mejor relación tiempo e inversión.</li>
+              <li>Mejor relación entre tiempo e inversión.</li>
             </ul>
             <Link to="/contacto" className="btn btn-primary">
               Solicitar
@@ -75,11 +75,11 @@ function Membresias() {
           <article className="price-card">
             <h3>Quincena</h3>
             <p className="price">
-              20 <small>dólares</small>
+              C$740 <small>córdobas</small>
             </p>
             <ul>
               <li>Acceso continuo por 15 días.</li>
-              <li>Perfecta para probar tu disciplina.</li>
+              <li>Perfecta para mantener una rutina corta.</li>
               <li>Plan flexible para iniciar.</li>
             </ul>
             <Link to="/contacto" className="btn btn-secondary">
@@ -90,11 +90,11 @@ function Membresias() {
           <article className="price-card">
             <h3>Semana</h3>
             <p className="price">
-              12 <small>dólares</small>
+              C$440 <small>córdobas</small>
             </p>
             <ul>
-              <li>Ideal para visitantes.</li>
-              <li>Útil para una prueba intensiva.</li>
+              <li>Acceso durante una semana.</li>
+              <li>Ideal para visitantes o pruebas.</li>
               <li>Entrena varios días seguidos.</li>
             </ul>
             <Link to="/contacto" className="btn btn-secondary">
@@ -105,7 +105,7 @@ function Membresias() {
           <article className="price-card">
             <h3>Día</h3>
             <p className="price">
-              100 <small>córdobas</small>
+              C$100 <small>córdobas</small>
             </p>
             <ul>
               <li>Acceso por un día.</li>
@@ -116,6 +116,7 @@ function Membresias() {
               Elegir
             </Link>
           </article>
+
         </div>
       </section>
 
