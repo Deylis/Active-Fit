@@ -2974,3 +2974,57 @@ body::after {
     transform: translateX(-50%) translateY(0) !important;
   }
 }
+
+/* =========================
+   AJUSTE IMÁGENES NUEVAS CARRUSEL HOME
+   ========================= */
+
+.hero-slider .hero-background .hero-img-4,
+.hero-slider .hero-background .hero-img-4.active {
+  object-position: center center;
+  transform: scale(1);
+}
+
+.hero-slider .hero-background .hero-img-5,
+.hero-slider .hero-background .hero-img-5.active {
+  object-position: center center;
+  transform: scale(1);
+}
+
+.hero-slider .hero-background .hero-img-6,
+.hero-slider .hero-background .hero-img-6.active {
+  object-position: center center;
+  transform: scale(1);
+}
+
+.hero-slider .hero-background .hero-img-7,
+.hero-slider .hero-background .hero-img-7.active {
+  object-position: center center;
+  transform: scale(1);
+}
+
+@media (max-width: 768px) {
+  .hero-slider .hero-background .hero-img-4,
+  .hero-slider .hero-background .hero-img-4.active {
+    object-position: center center !important;
+    transform: scale(1) !important;
+  }
+
+  .hero-slider .hero-background .hero-img-5,
+  .hero-slider .hero-background .hero-img-5.active {
+    object-position: center center !important;
+    transform: scale(1) !important;
+  }
+
+  .hero-slider .hero-background .hero-img-6,
+  .hero-slider .hero-background .hero-img-6.active {
+    object-position: center center !important;
+    transform: scale(1) !important;
+  }
+
+  .hero-slider .hero-background .hero-img-7,
+  .hero-slider .hero-background .hero-img-7.active {
+    object-position: center center !important;
+    transform: scale(1) !important;
+  }
+}

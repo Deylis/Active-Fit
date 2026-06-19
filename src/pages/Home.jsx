@@ -5,6 +5,9 @@ const heroImages = [
   "/img/hero-active-1.jpeg",
   "/img/hero-active-2.jpeg",
   "/img/hero-active-3.jpeg",
+  "/img/hero-active-4.jpeg",
+  "/img/hero-active-5.jpeg",
+  "/img/hero-active-6.jpeg",
 ];
 
 function Home() {
@@ -13,7 +16,7 @@ function Home() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentHeroImage((prev) => (prev + 1) % heroImages.length);
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, []);
