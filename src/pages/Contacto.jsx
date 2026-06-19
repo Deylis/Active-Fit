@@ -193,9 +193,9 @@ Saludos.`;
         <div className="contact-info">
           <article className="glass-card">
             <h3>Horario</h3>
-            <p>Lunes a viernes: 5:00 AM - 9:00 PM</p>
+            <p>Lunes a viernes: 5:00 AM - 10:00 PM</p>
             <p>Sábado: 6:00 AM - 6:00 PM</p>
-            <p>Domingo: Cerrado</p>
+            <p>Domingo: 9:00 AM - 6:00 PM</p>
           </article>
 
           <article className="glass-card">

@@ -29,7 +29,7 @@ function FAQ() {
 
           <article className="faq-item">
             <h3>¿Puedo pagar solo por un día?</h3>
-            <p>Sí. Active Fit cuenta con opción de día por 100 córdobas.</p>
+            <p>Sí. Active Fit cuenta con opción de día por C$100.</p>
           </article>
 
           <article className="faq-item">
@@ -43,8 +43,8 @@ function FAQ() {
           <article className="faq-item">
             <h3>¿Cuáles son los horarios?</h3>
             <p>
-              De lunes a viernes de 5:00 AM a 9:00 PM y sábado de 6:00 AM a
-              6:00 PM.
+              De lunes a viernes de 5:00 AM a 10:00 PM, sábado de 6:00 AM a
+              6:00 PM y domingo de 9:00 AM a 6:00 PM.
             </p>
           </article>
 

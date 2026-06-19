@@ -23,7 +23,7 @@ function Horarios() {
         <div className="schedule-grid">
           <article className="schedule-card featured">
             <h3>Lunes a Viernes</h3>
-            <p className="schedule-time">5:00 AM - 9:00 PM</p>
+            <p className="schedule-time">5:00 AM - 10:00 PM</p>
             <p>
               Horario ideal para entrenar antes o después de tus actividades
               diarias.
@@ -38,10 +38,10 @@ function Horarios() {
 
           <article className="schedule-card">
             <h3>Domingo</h3>
-            <p className="schedule-time">Cerrado</p>
+            <p className="schedule-time">9:00 AM - 6:00 PM</p>
             <p>
-              Día de descanso, recuperación y preparación para iniciar una nueva
-              semana.
+              Ideal para entrenar con más calma, cerrar la semana con energía y
+              mantener la constancia.
             </p>
           </article>
         </div>
@@ -74,21 +74,21 @@ function Horarios() {
 
               <tr>
                 <td>Martes</td>
-                <td> funcional</td>
+                <td>Funcional</td>
                 <td>Entrenamiento libre</td>
                 <td>Hipertrofia</td>
               </tr>
 
               <tr>
                 <td>Miércoles</td>
-                <td>Pesas </td>
+                <td>Pesas</td>
                 <td>Entrenamiento libre</td>
                 <td>Rutina guiada</td>
               </tr>
 
               <tr>
                 <td>Jueves</td>
-                <td> funcional</td>
+                <td>Funcional</td>
                 <td>Entrenamiento libre</td>
                 <td>Hipertrofia</td>
               </tr>
@@ -102,6 +102,13 @@ function Horarios() {
 
               <tr>
                 <td>Sábado</td>
+                <td>Entrenamiento libre</td>
+                <td>Rutina general</td>
+                <td>No disponible</td>
+              </tr>
+
+              <tr>
+                <td>Domingo</td>
                 <td>Entrenamiento libre</td>
                 <td>Rutina general</td>
                 <td>No disponible</td>
